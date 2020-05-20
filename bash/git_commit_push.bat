@@ -1,8 +1,7 @@
 ECHO OFF
 ECHO insert commit message ...
-set /p var=
-ECHO ON
 call git add .
+set /p var=
 call git commit -m "%var%"
 call git push
 PAUSE
