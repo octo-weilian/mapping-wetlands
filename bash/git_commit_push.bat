@@ -1,4 +1,5 @@
 ECHO OFF
+call git add .
 ECHO insert commit message ...
 call git add .
 set /p var=
