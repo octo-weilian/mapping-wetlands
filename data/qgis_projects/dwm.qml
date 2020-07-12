@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis hasScaleBasedVisibilityFlag="0" minScale="1e+08" version="3.4.12-Madeira" maxScale="0" styleCategories="AllStyleCategories">
+<qgis version="3.4.12-Madeira" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
@@ -12,7 +12,7 @@
     <property key="identify/format" value="Value"/>
   </customproperties>
   <pipe>
-    <rasterrenderer band="1" alphaBand="-1" type="paletted" opacity="1">
+    <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
       <rasterTransparency/>
       <minMaxOrigin>
         <limits>None</limits>
@@ -23,7 +23,7 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry alpha="255" label="Non-water" value="1" color="#f7fbff"/>
+        <paletteEntry alpha="255" label="Non-water" value="1" color="#abdda4"/>
         <paletteEntry alpha="255" label="Seasonal water" value="2" color="#73b3d8"/>
         <paletteEntry alpha="255" label="Permanent water" value="3" color="#08306b"/>
         <paletteEntry alpha="255" label="Invalid" value="4" color="#dc0f0f"/>
@@ -37,7 +37,7 @@
       </colorramp>
     </rasterrenderer>
     <brightnesscontrast contrast="0" brightness="0"/>
-    <huesaturation colorizeGreen="128" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeRed="255" colorizeStrength="100" colorizeOn="0"/>
+    <huesaturation colorizeStrength="100" saturation="0" colorizeRed="255" colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
     <rasterresampler maxOversampling="2"/>
   </pipe>
   <blendMode>0</blendMode>
