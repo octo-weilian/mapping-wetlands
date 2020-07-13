@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "ts_atmocorr",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "code": 1, "desc": "Wa" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 32.467605049180257, -28.061738539209752 ] ] } },
+{ "type": "Feature", "properties": { "code": 5, "desc": "Ve" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 32.436844442688745, -28.033799839666706 ] ] } }
+]
+}
