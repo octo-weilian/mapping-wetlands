@@ -1,0 +1,80 @@
+thematic_raster: {band: null, nodata: -1, path: null}
+sampling_layer: C:\Users\willi\Documents\mapping-wetlands\data\sample\accuracy_assesment\stratified_random_52samples_segmented.geojson
+dialog_size: !!python/tuple [1011, 828]
+grid_view_widgets: {columns: 1, rows: 1}
+current_sample_idx: 52
+fit_to_sample: 1000.0
+is_completed: false
+view_widgets_config:
+  0: {layer_name: Google Satellite, render_file_path: null, scale_factor: 1.0, view_name: ''}
+classification_buttons:
+  1: {color: '#000000', name: Nw, thematic_class: null}
+  2: {color: '#005500', name: Wl, thematic_class: null}
+  3: {color: '#00aaff', name: Sw, thematic_class: null}
+  4: {color: '#00007f', name: Pw, thematic_class: null}
+points:
+  0: {classif_id: 3, shape_id: 27}
+  1: {classif_id: 3, shape_id: 188}
+  2: {classif_id: 3, shape_id: 39}
+  3: {classif_id: 4, shape_id: 29}
+  4: {classif_id: 4, shape_id: 92}
+  5: {classif_id: 3, shape_id: 30}
+  6: {classif_id: 3, shape_id: 80}
+  7: {classif_id: 2, shape_id: 126}
+  8: {classif_id: 1, shape_id: 161}
+  9: {classif_id: 3, shape_id: 41}
+  10: {classif_id: 4, shape_id: 48}
+  11: {classif_id: 4, shape_id: 102}
+  12: {classif_id: 4, shape_id: 198}
+  13: {classif_id: 2, shape_id: 129}
+  14: {classif_id: 2, shape_id: 181}
+  15: {classif_id: 4, shape_id: 49}
+  16: {classif_id: 4, shape_id: 28}
+  17: {classif_id: 4, shape_id: 201}
+  18: {classif_id: 2, shape_id: 127}
+  19: {classif_id: 4, shape_id: 52}
+  20: {classif_id: 1, shape_id: 130}
+  21: {classif_id: 1, shape_id: 54}
+  22: {classif_id: 2, shape_id: 143}
+  23: {classif_id: 3, shape_id: 16}
+  24: {classif_id: 4, shape_id: 136}
+  25: {classif_id: 1, shape_id: 57}
+  26: {classif_id: 4, shape_id: 144}
+  27: {classif_id: 4, shape_id: 99}
+  28: {classif_id: 1, shape_id: 26}
+  29: {classif_id: 3, shape_id: 88}
+  30: {classif_id: 2, shape_id: 21}
+  31: {classif_id: 1, shape_id: 5}
+  32: {classif_id: 4, shape_id: 79}
+  33: {classif_id: 2, shape_id: 124}
+  34: {classif_id: 3, shape_id: 133}
+  35: {classif_id: 2, shape_id: 25}
+  36: {classif_id: 4, shape_id: 202}
+  37: {classif_id: 1, shape_id: 53}
+  38: {classif_id: 4, shape_id: 203}
+  39: {classif_id: 1, shape_id: 2}
+  40: {classif_id: 3, shape_id: 142}
+  41: {classif_id: 4, shape_id: 147}
+  42: {classif_id: 4, shape_id: 101}
+  43: {classif_id: 4, shape_id: 150}
+  44: {classif_id: 1, shape_id: 62}
+  45: {classif_id: 1, shape_id: 165}
+  46: {classif_id: 1, shape_id: 6}
+  47: {classif_id: 1, shape_id: 170}
+  48: {classif_id: 3, shape_id: 85}
+  49: {classif_id: 1, shape_id: 167}
+  50: {classif_id: 1, shape_id: 23}
+  51: {classif_id: 1, shape_id: 106}
+points_order: [27, 188, 39, 29, 92, 30, 80, 126, 161, 41, 48, 102, 198, 129, 181,
+  49, 28, 201, 127, 52, 130, 54, 143, 16, 136, 57, 144, 99, 26, 88, 21, 5, 79, 124,
+  133, 25, 202, 53, 203, 2, 142, 147, 101, 150, 62, 165, 6, 170, 85, 167, 23, 106,
+  31, 9, 206, 208, 10, 35, 159, 43, 151, 132, 177, 173, 70, 47, 176, 36, 185, 38,
+  63, 14, 3, 139, 84, 197, 96, 1, 34, 122, 40, 192, 158, 56, 172, 115, 120, 91, 82,
+  109, 77, 194, 125, 117, 140, 135, 205, 123, 20, 138, 67, 86, 186, 110, 33, 189,
+  94, 83, 8, 187, 153, 175, 95, 100, 4, 171, 193, 169, 157, 163, 71, 66, 179, 184,
+  12, 97, 196, 89, 61, 42, 152, 76, 128, 44, 178, 149, 24, 137, 121, 75, 155, 72,
+  78, 160, 119, 141, 168, 174, 154, 131, 68, 105, 50, 204, 81, 46, 190, 114, 146,
+  65, 59, 104, 17, 45, 164, 93, 108, 113, 51, 60, 103, 69, 55, 111, 191, 182, 18,
+  90, 58, 148, 200, 32, 183, 73, 166, 112, 134, 7, 116, 13, 156, 107, 98, 22, 199,
+  180, 162, 11, 195, 37, 87, 74, 64, 19, 207, 145, 15, 118]
+accuracy_assessment_sampling_file: null
