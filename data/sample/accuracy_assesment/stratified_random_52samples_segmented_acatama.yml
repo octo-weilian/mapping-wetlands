@@ -2,7 +2,7 @@ thematic_raster: {band: null, nodata: -1, path: null}
 sampling_layer: C:\Users\willi\Documents\mapping-wetlands\data\sample\accuracy_assesment\stratified_random_52samples_segmented.geojson
 dialog_size: !!python/tuple [1011, 828]
 grid_view_widgets: {columns: 1, rows: 1}
-current_sample_idx: 52
+current_sample_idx: 151
 fit_to_sample: 1000.0
 is_completed: false
 view_widgets_config:
@@ -65,6 +65,104 @@ points:
   49: {classif_id: 1, shape_id: 167}
   50: {classif_id: 1, shape_id: 23}
   51: {classif_id: 1, shape_id: 106}
+  52: {classif_id: 3, shape_id: 31}
+  53: {classif_id: 1, shape_id: 9}
+  54: {classif_id: 4, shape_id: 206}
+  55: {classif_id: 4, shape_id: 208}
+  56: {classif_id: 1, shape_id: 10}
+  57: {classif_id: 2, shape_id: 35}
+  58: {classif_id: 1, shape_id: 159}
+  59: {classif_id: 3, shape_id: 43}
+  60: {classif_id: 3, shape_id: 151}
+  61: {classif_id: 3, shape_id: 132}
+  62: {classif_id: 2, shape_id: 177}
+  63: {classif_id: 2, shape_id: 173}
+  64: {classif_id: 3, shape_id: 70}
+  65: {classif_id: 4, shape_id: 47}
+  66: {classif_id: 2, shape_id: 176}
+  67: {classif_id: 2, shape_id: 36}
+  69: {classif_id: 3, shape_id: 38}
+  70: {classif_id: 1, shape_id: 63}
+  71: {classif_id: 1, shape_id: 14}
+  72: {classif_id: 1, shape_id: 3}
+  73: {classif_id: 3, shape_id: 139}
+  74: {classif_id: 3, shape_id: 84}
+  75: {classif_id: 4, shape_id: 197}
+  76: {classif_id: 4, shape_id: 96}
+  77: {classif_id: 1, shape_id: 1}
+  78: {classif_id: 2, shape_id: 34}
+  79: {classif_id: 3, shape_id: 122}
+  80: {classif_id: 4, shape_id: 40}
+  81: {classif_id: 4, shape_id: 192}
+  82: {classif_id: 1, shape_id: 158}
+  83: {classif_id: 1, shape_id: 56}
+  84: {classif_id: 2, shape_id: 172}
+  85: {classif_id: 1, shape_id: 115}
+  86: {classif_id: 3, shape_id: 120}
+  87: {classif_id: 3, shape_id: 91}
+  88: {classif_id: 3, shape_id: 82}
+  89: {classif_id: 1, shape_id: 109}
+  90: {classif_id: 3, shape_id: 77}
+  91: {classif_id: 2, shape_id: 194}
+  92: {classif_id: 2, shape_id: 125}
+  93: {classif_id: 1, shape_id: 117}
+  94: {classif_id: 3, shape_id: 140}
+  95: {classif_id: 3, shape_id: 135}
+  96: {classif_id: 4, shape_id: 205}
+  97: {classif_id: 2, shape_id: 123}
+  98: {classif_id: 2, shape_id: 20}
+  99: {classif_id: 2, shape_id: 138}
+  100: {classif_id: 3, shape_id: 67}
+  101: {classif_id: 3, shape_id: 86}
+  102: {classif_id: 3, shape_id: 186}
+  103: {classif_id: 1, shape_id: 110}
+  104: {classif_id: 2, shape_id: 33}
+  105: {classif_id: 3, shape_id: 189}
+  106: {classif_id: 3, shape_id: 94}
+  107: {classif_id: 3, shape_id: 83}
+  108: {classif_id: 1, shape_id: 8}
+  109: {classif_id: 2, shape_id: 187}
+  110: {classif_id: 4, shape_id: 153}
+  111: {classif_id: 1, shape_id: 175}
+  112: {classif_id: 3, shape_id: 95}
+  113: {classif_id: 4, shape_id: 100}
+  114: {classif_id: 1, shape_id: 4}
+  115: {classif_id: 2, shape_id: 171}
+  116: {classif_id: 2, shape_id: 193}
+  117: {classif_id: 1, shape_id: 169}
+  118: {classif_id: 1, shape_id: 157}
+  119: {classif_id: 1, shape_id: 163}
+  120: {classif_id: 3, shape_id: 71}
+  121: {classif_id: 3, shape_id: 66}
+  122: {classif_id: 2, shape_id: 179}
+  123: {classif_id: 3, shape_id: 184}
+  124: {classif_id: 1, shape_id: 12}
+  125: {classif_id: 4, shape_id: 97}
+  126: {classif_id: 4, shape_id: 196}
+  127: {classif_id: 3, shape_id: 89}
+  128: {classif_id: 1, shape_id: 61}
+  129: {classif_id: 4, shape_id: 42}
+  130: {classif_id: 4, shape_id: 152}
+  131: {classif_id: 3, shape_id: 76}
+  132: {classif_id: 2, shape_id: 128}
+  133: {classif_id: 4, shape_id: 44}
+  134: {classif_id: 2, shape_id: 178}
+  135: {classif_id: 3, shape_id: 149}
+  136: {classif_id: 2, shape_id: 24}
+  137: {classif_id: 3, shape_id: 137}
+  138: {classif_id: 3, shape_id: 121}
+  139: {classif_id: 3, shape_id: 75}
+  140: {classif_id: 4, shape_id: 155}
+  141: {classif_id: 3, shape_id: 72}
+  142: {classif_id: 3, shape_id: 78}
+  143: {classif_id: 1, shape_id: 160}
+  144: {classif_id: 1, shape_id: 119}
+  145: {classif_id: 2, shape_id: 141}
+  146: {classif_id: 1, shape_id: 168}
+  147: {classif_id: 2, shape_id: 174}
+  148: {classif_id: 3, shape_id: 154}
+  149: {classif_id: 3, shape_id: 131}
+  150: {classif_id: 2, shape_id: 68}
 points_order: [27, 188, 39, 29, 92, 30, 80, 126, 161, 41, 48, 102, 198, 129, 181,
   49, 28, 201, 127, 52, 130, 54, 143, 16, 136, 57, 144, 99, 26, 88, 21, 5, 79, 124,
   133, 25, 202, 53, 203, 2, 142, 147, 101, 150, 62, 165, 6, 170, 85, 167, 23, 106,
