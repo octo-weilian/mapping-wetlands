@@ -2,7 +2,7 @@ thematic_raster: {band: null, nodata: -1, path: null}
 sampling_layer: E:\mapping-wetlands\data\sample\accuracy_assesment\stratified_random_52samples_segmented.geojson
 dialog_size: !!python/tuple [1422, 1008]
 grid_view_widgets: {columns: 1, rows: 1}
-current_sample_idx: 188
+current_sample_idx: 106
 fit_to_sample: 1000.0
 is_completed: true
 view_widgets_config:
@@ -182,7 +182,7 @@ points:
   166: {classif_id: 1, shape_id: 167}
   167: {classif_id: 1, shape_id: 168}
   168: {classif_id: 1, shape_id: 169}
-  169: {classif_id: 1, shape_id: 170}
+  169: {classif_id: 2, shape_id: 170}
   170: {classif_id: 2, shape_id: 171}
   171: {classif_id: 2, shape_id: 172}
   172: {classif_id: 2, shape_id: 173}
