@@ -1,18 +1,18 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.4.12-Madeira" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
+<qgis styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" version="3.4.12-Madeira" minScale="1e+08">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
   <customproperties>
-    <property key="WMSBackgroundLayer" value="false"/>
-    <property key="WMSPublishDataSourceUrl" value="false"/>
-    <property key="embeddedWidgets/count" value="0"/>
-    <property key="identify/format" value="Value"/>
+    <property value="false" key="WMSBackgroundLayer"/>
+    <property value="false" key="WMSPublishDataSourceUrl"/>
+    <property value="0" key="embeddedWidgets/count"/>
+    <property value="Value" key="identify/format"/>
   </customproperties>
   <pipe>
-    <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
+    <rasterrenderer alphaBand="-1" band="1" type="paletted" opacity="1">
       <rasterTransparency/>
       <minMaxOrigin>
         <limits>None</limits>
@@ -23,10 +23,9 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry alpha="255" label="Non-water" value="1" color="#abdda4"/>
-        <paletteEntry alpha="255" label="Seasonal water" value="2" color="#73b3d8"/>
-        <paletteEntry alpha="255" label="Permanent water" value="3" color="#08306b"/>
-        <paletteEntry alpha="255" label="Invalid" value="4" color="#dc0f0f"/>
+        <paletteEntry value="1" color="#abdda4" alpha="255" label="Non-water"/>
+        <paletteEntry value="2" color="#73b3d8" alpha="255" label="Seasonal water"/>
+        <paletteEntry value="3" color="#08306b" alpha="255" label="Permanent water"/>
       </colorPalette>
       <colorramp name="[source]" type="gradient">
         <prop v="247,251,255,255" k="color1"/>
@@ -37,7 +36,7 @@
       </colorramp>
     </rasterrenderer>
     <brightnesscontrast contrast="0" brightness="0"/>
-    <huesaturation colorizeStrength="100" saturation="0" colorizeRed="255" colorizeOn="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
+    <huesaturation colorizeOn="0" colorizeBlue="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" colorizeGreen="128" saturation="0"/>
     <rasterresampler maxOversampling="2"/>
   </pipe>
   <blendMode>0</blendMode>
