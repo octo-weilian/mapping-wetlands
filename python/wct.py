@@ -8,7 +8,7 @@ from sklearn.cluster import MiniBatchKMeans
 import rasterio as rio
 import numpy as np
 from skimage.filters import threshold_otsu
-from Python.misc import compute_index
+from python.misc import compute_index
 from rasterio.plot import reshape_as_image
 
 def compute_cluster(img,k=3,random_seed=42):
@@ -57,7 +57,7 @@ def compute_mnws(img,cluster_img):
 
         return mnws_img
     
-def compute_wcf(mnws_files,invalid_files,upland_file,thr=3,dec=2):
+def render_wcf(mnws_files,invalid_files,upland_file,thr=3,dec=2):
     
     with rio.open(upland_file) as src_upland:
         upland_mask = src_upland.read(1)

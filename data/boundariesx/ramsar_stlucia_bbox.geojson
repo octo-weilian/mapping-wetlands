@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "ramsar_stlucia_bbox",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 0, "area": 0.31683167714453475, "perimeter": 2.5702738671202421, "v_idris": 115, "v_idris_2": 115, "width": 0.41870996386773385, "height": 1.0055311780687646 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 32.2614619441323, -28.505632291068736 ], [ 32.680171908000034, -28.505632291068736 ], [ 32.680171908000034, -27.500101112999971 ], [ 32.2614619441323, -27.500101112999971 ], [ 32.2614619441323, -28.505632291068736 ] ] ] } }
-]
-}

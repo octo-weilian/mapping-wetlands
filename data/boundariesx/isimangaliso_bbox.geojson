@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "isimangaliso_bbox",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 0, "width": 0.7843910000000065, "height": 1.6277003, "area": 1.2767534660173112, "perimeter": 4.8241826 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 32.1070527, -28.4855622 ], [ 32.8914437, -28.4855622 ], [ 32.8914437, -26.8578619 ], [ 32.1070527, -26.8578619 ], [ 32.1070527, -28.4855622 ] ] ] } }
-]
-}
