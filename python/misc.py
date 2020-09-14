@@ -12,6 +12,11 @@ import geopandas as gpd
 import pandas as pd
 
 def compute_index(left_band,right_band,name):
+    """
+    Compute MNDWI and NDVI based on input bands.
+	Left band refers to the band image left in the equation. Same for right. 
+    """
+	
     np.seterr(divide='ignore', invalid='ignore')
     
     if name == 'MNDWI':
@@ -27,6 +32,7 @@ def compute_index(left_band,right_band,name):
     return index
 
 def compute_ipm(target_img,reference_img):
+
     """
     Compute invalid pixel mask (cloud, cloud shadow  and land vegetation)
     Input image should be stacked in the following order ['B2','B3','B4','B8A','B11']
@@ -54,6 +60,12 @@ def compute_ipm(target_img,reference_img):
     
 
 def strat_rand_sampling(file,size,vstride_nr,nodat=0,seed=None):
+    """
+    Custom stratified random sampling based on subareas.
+	Size : minimum sample size for each stratum
+	vstride_nr : number to subdivide the image along the latitude
+    """
+
     #set seed for numpy random 
     np.random.seed(seed)
     
@@ -100,6 +112,10 @@ def strat_rand_sampling(file,size,vstride_nr,nodat=0,seed=None):
         return data_cat,stack_img,profile
 
 def calc_acc(y_true,y_pred):
+
+    """
+	Computes confusion matrix and map accuracy (PA, UA and F1). 
+    """
     
     observed = y_true.rename('Observed')
     classified = y_pred.rename('Classified')
@@ -122,7 +138,11 @@ def calc_acc(y_true,y_pred):
 
 
 def plot_acc(acc_df,con_mat,labels,oa_alt=None,fig_text=None):
-    
+
+    """
+	Visualize confusion matrix and map accuracy 
+    """
+	
     acc_df = acc_df.copy()
     con_mat = con_mat.copy()
     

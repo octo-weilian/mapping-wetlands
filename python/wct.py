@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 from sklearn.cluster import MiniBatchKMeans
 import rasterio as rio
 import numpy as np
@@ -12,6 +11,11 @@ from python.misc import compute_index
 from rasterio.plot import reshape_as_image
 
 def compute_cluster(img,k=3,random_seed=42):
+
+    """
+	Computes cluster based on input image (stack).
+    """
+
     img_float = img.astype(np.float32)/10000
     samples = reshape_as_image(img_float).reshape(-1,img_float.shape[0])
     kmeans_pred = MiniBatchKMeans(n_clusters=k+1, 
@@ -23,13 +27,25 @@ def compute_cluster(img,k=3,random_seed=42):
     return kmeans_pred.labels_.reshape(img.shape[1], img.shape[2]).astype(rio.uint16)
 
 def compute_rws(mndwi_img,mgrn_img,thr=0.3):
+
+	"""
+	Computes Reliable Water Sample (RWS) region after (Chen et al.,2020).
+	Requires MNDWI and MGRN images. 
+    """
+
+	
     if thr == 'otsu':
         thr = threshold_otsu(mndwi_img[mndwi_img>=0])
     
     return np.where( (mndwi_img>=thr) &((mgrn_img>0) & (mgrn_img<0.15)),1,0)
 
 def compute_mnws(img,cluster_img):
-    
+
+	"""
+	Computes Minimum Normalized Water Score (MNWS) image after (Chen et al.,2020).
+	Requires input band image (stack) and clustered image.
+    """
+
     if len(img.shape) > 2 and img.shape[0] > 2:
         np.seterr(divide='ignore', invalid='ignore')
 
@@ -58,6 +74,11 @@ def compute_mnws(img,cluster_img):
         return mnws_img
     
 def render_wcf(mnws_files,invalid_files,upland_file,thr=3,dec=2):
+
+	"""
+	Computes Water Coverage Frequency (WCF) image after (Chen et al.,2020).
+	Requires path of MNWS image files, invalid pixel mask files and terrain (upland) mask file. 
+    """
     
     with rio.open(upland_file) as src_upland:
         upland_mask = src_upland.read(1)
